@@ -1,0 +1,24 @@
+{
+  "name": "string-padder",
+  "version": "1.0.0",
+  "description": "A (tiny!) utility module for string padding methods.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thekemkid/string-padder.git"
+  },
+  "keywords": [
+    "String",
+    "Pad",
+    "Padding",
+    "padLeft",
+    "padRight",
+    "utility"
+  ],
+  "author": "Glen Keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thekemkid/string-padder/issues"
+  },
+  "homepage": "https://github.com/thekemkid/string-padder"
+}

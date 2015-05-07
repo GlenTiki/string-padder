@@ -23,12 +23,12 @@ If a string is entered to be used as the pad, that string is repeated until the 
 	// basic example of a single char used as padding
 	var stringToBePadded = "hey I'm only 27 chars long!";
 	var leftPaddedString = padLeft(stringToBePadded, 35, '_');
-	leftPaddedString  === '________hey I'm only 27 chars long!'
+	leftPaddedString  === "________hey I'm only 27 chars long!"
 
 	// example of repeating string padding
-	var str = '123';
-	var tenLong = padLeft(str, 10, '12345');
-	tenLong === '1231234512';
+	var str = "123";
+	var tenLong = padLeft(str, 10, "12345");
+	tenLong === "1231234512";
 ```
 
 ## padRight Example
@@ -38,12 +38,12 @@ If a string is entered to be used as the pad, that string is repeated until the 
 	// basic example of a single char used as padding
 	var stringToBePadded = "hey I'm only 27 chars long!";
 	var rightPaddedString = padRight(stringToBePadded, 35, '_');
-	rightPaddedString  === 'hey I'm only 27 chars long!________';
+	rightPaddedString  === "hey I'm only 27 chars long!________";
 
 	// example of repeating string padding
-	var str = '123';
+	var str = "123";
 	var tenLong = padRight(str, 10, '12345');
-	tenLong === '1234512123';
+	tenLong === "1234512123";
 ```
 
 ## padBoth Example
@@ -53,18 +53,18 @@ If a string is entered to be used as the pad, that string is repeated until the 
 	// basic example of a single char used as padding
 	var stringToBePadded = "hey I'm only 27 chars long!";
 	var bothPaddedString = padBoth(stringToBePadded, 35, '_');
-	bothPaddedString  === '____hey I'm only 27 chars long!____';
+	bothPaddedString  === "____hey I'm only 27 chars long!____";
 
 	var leftSidePrecedence = padBoth(stringToBePadded, 36, '_');
-	leftSidePrecedence  === '_____hey I'm only 27 chars long!____';
+	leftSidePrecedence  === "_____hey I'm only 27 chars long!____";
 
 	// example of repeating string padding
-	var str = '123';
-	var tenLong = padBoth(str, 10, '12345');
-	tenLong === '1234123123';
+	var str = "123";
+	var tenLong = padBoth(str, 10, "12345");
+	tenLong === "1234123123";
 
-	var twentyLong = padBoth(str, 20, '12345');
-	twentyLong === '12345123412312345123';
+	var twentyLong = padBoth(str, 20, "12345");
+	twentyLong === "12345123412312345123";
 ```
 
 ## Happy Padding!

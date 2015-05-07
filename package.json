@@ -1,6 +1,6 @@
 {
   "name": "string-padder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A (tiny!) utility module for string padding methods.",
   "main": "index.js",
   "repository": {

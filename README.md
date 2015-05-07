@@ -38,7 +38,7 @@ If a string is entered to be used as the pad, that string is repeated until the 
 	// basic example of a single char used as padding
 	var stringToBePadded = "hey I'm only 27 chars long!";
 	var rightPaddedString = padRight(stringToBePadded, 35, '_');
-	rightPaddedString  === 'hey I'm only 27 chars long!________'
+	rightPaddedString  === 'hey I'm only 27 chars long!________';
 
 	// example of repeating string padding
 	var str = '123';
@@ -53,10 +53,10 @@ If a string is entered to be used as the pad, that string is repeated until the 
 	// basic example of a single char used as padding
 	var stringToBePadded = "hey I'm only 27 chars long!";
 	var bothPaddedString = padBoth(stringToBePadded, 35, '_');
-	bothPaddedString  === '____hey I'm only 27 chars long!____'
+	bothPaddedString  === '____hey I'm only 27 chars long!____';
 
 	var leftSidePrecedence = padBoth(stringToBePadded, 36, '_');
-	leftSidePrecedence  === '_____hey I'm only 27 chars long!____'
+	leftSidePrecedence  === '_____hey I'm only 27 chars long!____';
 
 	// example of repeating string padding
 	var str = '123';

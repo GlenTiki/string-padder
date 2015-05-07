@@ -29,13 +29,13 @@ function padLeft(str, padLength, padStr){
 	var pS = padStr || ' ';
 
 	// convert the input to a string if it is not a string
-	if(!(moddedStr typeof String)){
+	if(!(typeof moddedStr === 'string')){
 		moddedStr = moddedStr.toString();
 	}
 
 	// try make padLength a number... 
 	// return the input string if it cannot be converted to a number
-	if(!(pL typeof Number)){
+	if(!(typeof pL === 'number')){
 		try {
 			pL = new Number(pL);
 		} catch (err) {
@@ -44,7 +44,7 @@ function padLeft(str, padLength, padStr){
 	}
 
 	// convert to pad string if it is not a string
-	if(!(pS typeof String)){
+	if(!(typeof pS === 'string')){
 		pS = pS.toString();
 	}
 
@@ -63,13 +63,13 @@ function padRight(str, padLength, padStr){
 	var pS = padStr || ' ';
 
 	// convert the input to a string if it is not a string
-	if(!(moddedStr typeof String)){
+	if(!(typeof moddedStr === 'string')){
 		moddedStr = moddedStr.toString();
 	}
 
 	// try make padLength a number... 
 	// return the input string if it cannot be converted to a number
-	if(!(pL typeof Number)){
+	if(!(typeof pL === 'number')){
 		try {
 			pL = new Number(pL);
 		} catch (err) {
@@ -78,9 +78,10 @@ function padRight(str, padLength, padStr){
 	}
 
 	// convert to pad string if it is not a string
-	if(!(pS typeof String)){
+	if(!(typeof pS === 'string')){
 		pS = pS.toString();
 	}
+
 
 	var padStrLength = pL - moddedStr.length;
 
@@ -97,13 +98,13 @@ function padBoth(str, padLength, padStr){
 	var pS = padStr || ' ';
 
 	// convert the input to a string if it is not a string
-	if(!(moddedStr typeof String)){
+	if(!(typeof moddedStr === 'string')){
 		moddedStr = moddedStr.toString();
 	}
 
 	// try make padLength a number... 
 	// return the input string if it cannot be converted to a number
-	if(!(pL typeof Number)){
+	if(!(typeof pL === 'number')){
 		try {
 			pL = new Number(pL);
 		} catch (err) {
@@ -112,7 +113,7 @@ function padBoth(str, padLength, padStr){
 	}
 
 	// convert to pad string if it is not a string
-	if(!(pS typeof String)){
+	if(!(typeof pS === 'string')){
 		pS = pS.toString();
 	}
 

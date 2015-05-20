@@ -2,15 +2,20 @@
   "name": "string-padder",
   "version": "1.0.2",
   "description": "A (tiny!) utility module for string padding methods.",
-  "main": "index.js",
+  "main": "padder.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/thekemkid/string-padder.git"
+  },
+  "scripts": {
+    "test": "node ./test/run.js"
   },
   "keywords": [
     "String",
     "Pad",
     "Padding",
+    "padder",
+    "padBoth",
     "padLeft",
     "padRight",
     "utility"
@@ -20,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/thekemkid/string-padder/issues"
   },
-  "homepage": "https://github.com/thekemkid/string-padder"
+  "homepage": "https://github.com/thekemkid/string-padder",
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  }
 }

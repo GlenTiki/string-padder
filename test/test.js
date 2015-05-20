@@ -65,8 +65,8 @@ exports.padBothTest = function(test){
 	test.equal(tenLong, "abcd123abc");
 	tenLong === "abcd123abc";
 
-	var twentyLong = padBoth(str, 20, "abcde");
-	test.equal(10, twentyLong.length);
+	var twentyLong = padder.padBoth(str, 20, "abcde");
+	test.equal(20, twentyLong.length);
 	test.equal(twentyLong, "abcdeabcd123abcdeabc");
 
 	test.done();

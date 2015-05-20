@@ -28,7 +28,7 @@ If a string is entered to be used as the pad, that string is repeated until the 
 	// example of repeating string padding
 	var str = "123";
 	var tenLong = padLeft(str, 10, "12345");
-	tenLong === "1231234512";
+	tenLong === "1234512123";
 ```
 
 ## padRight Example
@@ -43,7 +43,7 @@ If a string is entered to be used as the pad, that string is repeated until the 
 	// example of repeating string padding
 	var str = "123";
 	var tenLong = padRight(str, 10, '12345');
-	tenLong === "1234512123";
+	tenLong === "1231234512";
 ```
 
 ## padBoth Example
